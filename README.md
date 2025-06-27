@@ -6,7 +6,7 @@ Simulation of fish movements using BOIDS in multiple languages.
 
 Check the branches to access to all languages version.
 
-- [ ] Python
+- [x] Python
 - [ ] Web (React)
 - [ ] Java
 - [ ] C++
