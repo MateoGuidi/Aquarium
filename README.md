@@ -1,16 +1,38 @@
-# AQUARIUM
+# Aquarium
 
-Simulation of fish movements using BOIDS in multiple languages.
+Aquarium is a fish simulation using BOIDS movements written in Python.
 
-## All languages
+## How to launch it
 
-Check the branches to access to all languages version.
+### 🐍 Local launch
 
-- [ ] Python
-- [ ] Web (React)
-- [ ] Java
-- [ ] C++
+```bash
+pip install -r requirements.txt
+python main.py
+```
+
+### 🐳 Docker launch
+
+```bash
+docker build -t aquarium
+docker run -it --rm aquarium
+```
+*To show graphic window, Docker must be configured for X11*
+
+## Structure
+
+- `main.py`: Main loop
+- `boid.py`: BOIDS entity logic
+- `config.py`: General settings
 
 ## License
 
-This projet is fully open-source. Check the LICENSE files for further informations.
+This projet is fully open-source. Check the LICENSE file for further informations.
+
+## Screenshot
+
+
+
+
+
+
